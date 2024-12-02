@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy League - Kenya</title>
+    <style>
+        /* Basic CSS for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #800080;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .fantasy-pitch {
+            background-color: #4CAF50;
+            width: 80%;
+            margin: 50px auto;
+            height: 600px;
+            position: relative;
+            display: grid;
+            grid-template-rows: repeat(4, 1fr);
+            border: 2px solid #fff;
+        }
+
+        .player-row {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .player-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            width: 60px;
+        }
+
+        .player-card img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .player-name {
+            font-weight: bold;
+        }
+
+        .points {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .captain {
+            background-color: gold;
+        }
+
+        .team-panel {
+            width: 18%;
+            padding: 20px;
+            background-color: #fff;
+            margin-left: auto;
+        }
+
+        .team-panel img {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .league-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .team-league {
+            font-size: 18px;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .fan-league {
+            color: #FF5733;
+        }
+
+        .points-summary {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        Fantasy League - Kenya
+    </div>
+
+    <div class="fantasy-pitch">
+        <!-- Goalkeeper Row -->
+        <div class="player-row">
+            <div class="player-card">
+                <img src="https://via.placeholder.com/50" alt="Flekken">
+                <div class="player-name">Flekken</div>
+                <div class="points">2 Points</div>
+            </div>
+        </div>
+
+        <!-- Defender Row -->
+        <div class="player-row">
+            <div class="player-card">
+                <img src="https://via.placeholder.com/50" alt="Van Hecke">
+                <div class="player-name">Van Hecke</div>
+                <div class="points">2 Points</div>
+            </div>
+            <div class="player-card">
+                <img src="https://via.placeholder.com/50" alt="Robertson">
+                <div class="player-name">Robertson</div>
+                <div class="points">6 Points</div>
+            </div>
+            <div class="player-card">
+                <img src="https://via.placeholder.com/50" alt="Aina">
+                <div class="player-name">Aina</div>
+                <div class="points">8 Points</div>
+            </div>
+        </div>
+
+        <!-- Midfielder Row -->
+        <div class="player-row">
+            <div class="player-card">
+                <img src="https://via.placeholder.com/50" alt="M. Salah">
+                <div class="player-name">M. Salah</div>
+                <div class="points">13 Points</div>
+            </div>
+            <div class="player-card">
+                <img src="https://via.placeholder.com/50" alt="Saka">
+                <div class="player-name">Saka</div>
+                <div class="points">18 Points</div>
+            </div>
+            <div class="player-card captain">
+                <img src="https://via.placeholder.com/50" alt="Palmer">
+                <div class="player-name">Palmer</div>
+                <div class="points">28 Points</div>
+            </div>
+            <div class="player-card">
+                <img src="https://via.placeholder.com/50" alt="B. Fernandes">
+                <div class="player-name">B. Fernandes</div>
+                <div class="points">9 Points</div>
+            </div>
+        </div>
+
+        <!-- Forward Row -->
+        <div class="player-row">
+            <div class="player-card">
+                <img src="https://via.placeholder.com/50" alt="Cunha">
+                <div class="player-name">Cunha</div>
+                <div class="points">2 Points</div>
+            </div>
+            <div class="player-card">
+                <img src="https://via.placeholder.com/50" alt="Isak">
+                <div class="player-name">Isak</div>
+                <div class="points">1 Point</div>
+            </div>
+            <div class="player-card">
+                <img src="https://via.placeholder.com/50" alt="João Pedro">
+                <div class="player-name">João Pedro</div>
+                <div class="points">2 Points</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Panel -->
+    <div class="team-panel">
+        <img src="https://via.placeholder.com/200x100?text=Arsenal+Logo" alt="Arsenal">
