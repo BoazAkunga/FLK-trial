@@ -1,0 +1,43 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.fantasy-pitch {
+  background: #4CAF50;
+  height: 500px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  margin: 20px auto;
+  width: 80%;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  position: relative;
+}
+
+.player-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.player-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.player-card h3 {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.player-card p {
+  font-size: 12px;
+  color: gray;
+}
